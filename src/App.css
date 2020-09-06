@@ -99,5 +99,7 @@ h2{
         width: 98%;
         margin:20px auto;
     }
-
+    .rec-image{
+        height: 200px;
+    }
 }
