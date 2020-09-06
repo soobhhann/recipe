@@ -63,6 +63,8 @@ form{
 }
 
 .cards{
+    width: 100%;
+    margin: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -76,11 +78,20 @@ form{
 }
 
 .card{
-    width: 400px;
+    width: 380px;
     background-color: rgb(241, 241, 241);
     border-radius: 10px;
 }
 
 h2{
     font-size: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    button{
+        padding: 10px 35px;
+    }
+    .recepi{
+        width: 250px;
+    }
 }
