@@ -89,9 +89,15 @@ h2{
 
 @media screen and (max-width: 768px){
     button{
-        padding: 10px 35px;
+        padding: 10px 15px;
     }
     .recepi{
-        width: 250px;
+        width: 150px;
+        margin-bottom: 50px;
     }
+    .card{
+        width: 98%;
+        margin:20px auto;
+    }
+
 }
